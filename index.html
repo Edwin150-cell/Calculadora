@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Seguridad de Permisos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔐 Sistema de Seguridad</h1>
+    <p class="sub">Gestión avanzada de permisos</p>
+
+    <label>Número de permisos</label>
+    <input type="text" id="numero" placeholder="Ej: 755" maxlength="3">
+
+    <!-- USUARIO -->
+    <div class="card">
+        <h3>👤 Usuario</h3>
+        <select id="usuario">
+            <option value="0">Ninguno</option>
+            <option value="1">Ejecución</option>
+            <option value="2">Escritura</option>
+            <option value="3">Escritura + Ejecución</option>
+            <option value="4">Lectura</option>
+            <option value="5">Lectura + Ejecución</option>
+            <option value="6">Lectura + Escritura</option>
+            <option value="7">Todos</option>
+        </select>
+    </div>
+
+    <!-- GRUPO -->
+    <div class="card">
+        <h3>👥 Grupo</h3>
+        <select id="grupo">
+            <option value="0">Ninguno</option>
+            <option value="1">Ejecución</option>
+            <option value="2">Escritura</option>
+            <option value="3">Escritura + Ejecución</option>
+            <option value="4">Lectura</option>
+            <option value="5">Lectura + Ejecución</option>
+            <option value="6">Lectura + Escritura</option>
+            <option value="7">Todos</option>
+        </select>
+    </div>
+
+    <!-- OTROS -->
+    <div class="card">
+        <h3>🌐 Otros</h3>
+        <select id="otros">
+            <option value="0">Ninguno</option>
+            <option value="1">Ejecución</option>
+            <option value="2">Escritura</option>
+            <option value="3">Escritura + Ejecución</option>
+            <option value="4">Lectura</option>
+            <option value="5">Lectura + Ejecución</option>
+            <option value="6">Lectura + Escritura</option>
+            <option value="7">Todos</option>
+        </select>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
