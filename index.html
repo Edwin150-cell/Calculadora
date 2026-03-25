@@ -9,15 +9,14 @@
 
 <div class="container">
 
-    <h1>🔐 Sistema de Seguridad</h1>
+    <h1>Sistema de Seguridad</h1>
     <p class="sub">Gestión avanzada de permisos</p>
 
     <label>Número de permisos</label>
     <input type="text" id="numero" placeholder="Ej: 755" maxlength="3">
 
-    <!-- USUARIO -->
     <div class="card">
-        <h3>👤 Usuario</h3>
+        <h3>Usuario</h3>
         <select id="usuario">
             <option value="0">Ninguno</option>
             <option value="1">Ejecución</option>
@@ -30,9 +29,8 @@
         </select>
     </div>
 
-    <!-- GRUPO -->
     <div class="card">
-        <h3>👥 Grupo</h3>
+        <h3>Grupo</h3>
         <select id="grupo">
             <option value="0">Ninguno</option>
             <option value="1">Ejecución</option>
@@ -45,9 +43,8 @@
         </select>
     </div>
 
-    <!-- OTROS -->
     <div class="card">
-        <h3>🌐 Otros</h3>
+        <h3>Otros</h3>
         <select id="otros">
             <option value="0">Ninguno</option>
             <option value="1">Ejecución</option>
@@ -58,6 +55,10 @@
             <option value="6">Lectura + Escritura</option>
             <option value="7">Todos</option>
         </select>
+    </div>
+
+    <div class="select">
+        <button id="btnLimpiar">Limpiar</button>
     </div>
 
 </div>

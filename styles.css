@@ -64,3 +64,24 @@ select {
     color: #22c55e;
     border: 1px solid #22c55e;
 }
+
+.select {
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #22c55e;
+    border: none;
+    border-radius: 10px;
+    color: #020617;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #16a34a;
+    transform: scale(1.05);
+}
